@@ -24,16 +24,12 @@
     'depends': ['base', 'board'],
 
     # always loaded
-    'data': [
-        'security/security.xml',        
-        'security/ir.model.access.csv',
-        'views/openacademy.xml',
-        'views/partner.xml',
-        'views/session_board.xml',               
-        'reports.xml', 
+    'data': [       
+        #'security/ir.model.access.csv',
+         'templates.xml', 
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        'demo.xml',
     ],
 }
