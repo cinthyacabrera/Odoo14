@@ -1,35 +1,28 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Open Academy",
+    "name":"openacademy",
+    "summary": """Manage trainings""",
 
-    'summary': """Manage trainings""",
-
-    'description': """
-        Open Academy module for managing trainings:
+    'descripcion':"""
+        Open Academy module for managin trainins:
             - training courses
             - training sessions
             - attendees registration
     """,
-
     'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'website': "http:/www.yourcompany.com",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Test',
+    'category': 'test',
     'version': '0.1',
 
-    # any module necessary for this one to work correctly
-    'depends': ['base', 'board'],
+    'depends': ['base'],
 
-    # always loaded
-    'data': [       
-        #'security/ir.model.access.csv',
-         'templates.xml', 
+    'data':[
+        'security/ir.model.access.csv',
+        'views/openacademy.xml'
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo.xml',
-    ],
+    
+    'demo':[
+        'demo/demo.xml',
+        ],
 }
