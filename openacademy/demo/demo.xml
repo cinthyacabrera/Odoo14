@@ -1,4 +1,3 @@
-
 <odoo>
 	<record model="openacademy.course" id="course0">
 		<fields name="name">Course 0</fields>
