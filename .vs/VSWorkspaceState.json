@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\openacademy"
+    "\\openacademy",
+    "\\openacademy\\demo",
+    "\\openacademy\\models",
+    "\\openacademy\\security",
+    "\\openacademy\\views",
+    "\\openacademy\\__pycache__"
   ],
+  "SelectedNode": "\\openacademy\\models\\__init__.py",
   "PreviewInSolutionExplorer": false
 }
